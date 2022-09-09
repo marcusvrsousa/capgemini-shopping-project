@@ -1,0 +1,27 @@
+.search-form{
+    padding: 10px;
+    height: 100px;
+    width: 80vh;
+    display: flex;
+}
+
+.search-form input{
+    box-sizing: border-box;
+    height: 56px;
+    padding: 20px;
+    flex:1;
+    background-color: rgb(229, 231, 233);
+    color: rgb(0, 0, 0);
+    border: snow;
+    transition: all -3s ease-in-out;
+    font-size: 22px;
+}
+
+.search-form button{
+    width: 56px;
+    height: 56px;
+    background-color: rgb(38, 106, 184);
+    border:none;
+    color: whitesmoke;
+    font-size: 22px;
+}
